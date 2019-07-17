@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import {MaterialModule} from './shared/material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {MatIconModule} from '@angular/material';
     BrowserAnimationsModule,
     BrowserModule,
     MaterialModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
